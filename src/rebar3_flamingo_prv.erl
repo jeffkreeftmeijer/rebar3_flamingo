@@ -25,6 +25,18 @@ init(State) ->
 
 -spec do(rebar_state:t()) -> {ok, rebar_state:t()} | {error, string()}.
 do(State) ->
+    io:format('         .-. ~n'),
+    io:format('        ((`-)~n'),
+    io:format('         \\  ~n'),
+    io:format('          \\ ~n'),
+    io:format('   .="""=._))~n'),
+    io:format('  /  .,   .\' ~n'),
+    io:format(' /__(,_.-\'   ~n'),
+    io:format('`    /|      ~n'),
+    io:format('    /_|__    ~n'),
+    io:format('      | `))  ~n'),
+    io:format('      |      ~n'),
+    io:format('jgs  -"==    ~n'),
     {ok, State}.
 
 -spec format_error(any()) ->  iolist().
