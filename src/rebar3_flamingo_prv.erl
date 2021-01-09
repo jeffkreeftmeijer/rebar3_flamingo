@@ -2,7 +2,7 @@
 
 -export([init/1, do/1, format_error/1]).
 
--define(PROVIDER, rebar3_flamingo).
+-define(PROVIDER, flamingo).
 -define(DEPS, [app_discovery]).
 
 %% ===================================================================
